@@ -16,4 +16,5 @@ class WeatherRepositoryImpl extends WeatherRepository {
   Future<WeatherResponse>? getDetailWeather() async {
     return await _apiClient.getDetailWeather();
   }
+
 }
