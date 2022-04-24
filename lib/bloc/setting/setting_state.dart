@@ -1,5 +1,6 @@
 part of 'setting_cubit.dart';
 
+// ignore: must_be_immutable
 class SettingState extends Equatable {
   LoadStatus? loadStatus;
   UnitResponse? result;
@@ -8,11 +9,11 @@ class SettingState extends Equatable {
 
   SettingState copyWith({
     LoadStatus? loadStatus,
-    UnitResponse? unitResponse,
+    UnitResponse? result,
   }) {
     return SettingState(
         loadStatus: loadStatus ?? this.loadStatus,
-        result: unitResponse ?? this.result);
+        result: result ?? this.result);
   }
 
   List<Object?> get props => [

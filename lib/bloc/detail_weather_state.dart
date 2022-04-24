@@ -1,5 +1,6 @@
 part of 'detail_weather_cubit.dart';
 
+// ignore: must_be_immutable
 class DetailWeatherState extends Equatable {
   LoadStatus? loadStatus;
   WeatherResponse? result;

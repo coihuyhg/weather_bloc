@@ -1,8 +1,5 @@
-import 'dart:math';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:weather_bloc/model/load_status.dart';
 import 'package:weather_bloc/ui/home/detail_weather_big.dart';
 
 import '../../bloc/detail_weather_cubit.dart';
